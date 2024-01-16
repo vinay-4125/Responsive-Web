@@ -236,6 +236,10 @@
       
     } */
 
+  .footer-icon {
+    gap: 0;
+  }
+
   .second-section-child-1-1 {
     display: flex;
     flex-wrap: wrap;
