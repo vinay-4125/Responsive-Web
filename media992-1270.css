@@ -1,0 +1,102 @@
+@media screen and (min-width: 992px) and (max-width: 1270px) {
+  body {
+    /* text-align: center; */
+    /* overflow-x: hidden; */
+  }
+
+  .container {
+    width: 100%;
+    /* max-width: 450px; */
+    max-width: 930px;
+    /* max-width: 550px; */
+    min-height: 200px;
+    /* padding: 0 calc(1.5rem/2); */
+  }
+
+  /* .container {
+    width: 100%;
+    max-width: 992px;
+    min-height: 200px;
+  } */
+
+  .section-class {
+    position: relative;
+    padding: 7.5rem 0;
+    overflow: hidden;
+  }
+
+  .counter-row {
+    margin-left: 130px;
+  }
+
+  .info-row h2 {
+    text-align: center;
+  }
+
+  .image-div img {
+    max-width: 100%;
+    height: 156px;
+    width: 444px;
+  }
+
+  .eighth-section-second .iphone-image {
+    width: 100%;
+    max-width: 270px;
+  }
+
+  .eighth-section-app-feature {
+    margin-bottom: 1rem;
+  }
+
+  .inner-image {
+    width: 80%;
+    /* width: 38%; */
+    height: 50px;
+    position: absolute;
+    top: 95px;
+    left: 33px;
+  }
+
+  .inner-image img {
+    max-width: 91%;
+    position: absolute;
+    bottom: -324px;
+    right: 13px;
+  }
+
+  .price-card {
+    width: 295px;
+    background-color: white;
+    padding: 32px 21px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .ninth-image-div img {
+    max-width: 440px;
+  }
+
+  .header-text-middle h1 {
+    font-size: 27px;
+  }
+
+  .header-text-middle p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .second-para {
+    color: #6d6d6d;
+    font-size: 15px;
+    /* background-color: navajowhite; */
+    max-width: 450px;
+    margin-top: 25px;
+  }
+
+  .third-para {
+    max-width: 450px;
+  }
+
+  .third-section-child-1-1 {
+    gap: 0;
+  }
+}

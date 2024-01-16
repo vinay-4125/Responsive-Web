@@ -1,12 +1,13 @@
-@media only screen and (min-width: 190px) and (max-width: 321px) {
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+  /* @media only screen and (max-width: 425px) { */
   body {
     text-align: center;
-    margin: 0 auto;
-    overflow-x: hidden;
   }
   .container {
     width: 100%;
-    max-width: 296px;
+    /* max-width: 450px; */
+
+    max-width: 350px;
     /* max-width: 550px; */
     min-height: 200px;
     /* padding: 0 calc(1.5rem/2); */
@@ -76,8 +77,7 @@
   }
 
   .price-card {
-    /* width: 337px; */
-    width: 270px;
+    width: 337px;
   }
   .price-card h4 {
     text-align: left;
@@ -104,6 +104,10 @@
       "eight";
   }
 
+  .image-gallery img {
+    min-width: 400px;
+  }
+
   .sixth-section-child-1 {
     width: 100%;
   }
@@ -124,7 +128,7 @@
     flex-direction: column;
   }
   .testimonial {
-    padding: 4rem 0;
+    padding: 1rem;
   }
   .seventh-section-part-2 {
     padding: 4rem 0;
@@ -170,22 +174,11 @@
     max-width: 200px;
   }
 
-  .inner-image {
-    max-width: 68%;
-    /* width: 38%; */
-    height: 50px;
-    position: absolute;
-    /* top: 40px; */
-    /* left: 140px; */
-    left: 60px;
-    /* aspect-ratio: 3/2; */
-  }
-
   .inner-image img {
-    max-width: 83%;
+    max-width: 48%;
+    bottom: -356px;
+    right: 91px;
     position: absolute;
-    bottom: -304px;
-    right: 30px;
   }
 
   .ninth-data {
@@ -323,7 +316,7 @@
     } */
 
   .counter-row .counter-item {
-    width: 34%;
+    width: 40%;
     text-align: left;
     float: left;
     /* display: inline-block; */
@@ -356,6 +349,6 @@
 
   .eleventh-btn button {
     font-size: 13px;
-    margin-left: -200px;
+    margin-left: -150px;
   }
 }

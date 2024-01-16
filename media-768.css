@@ -1,12 +1,12 @@
-@media only screen and (min-width: 190px) and (max-width: 321px) {
+/* @media screen and (min-width: 576px) and (max-width: 768px) { */
+@media screen and (max-width: 768px) {
   body {
     text-align: center;
-    margin: 0 auto;
-    overflow-x: hidden;
   }
   .container {
     width: 100%;
-    max-width: 296px;
+    /* max-width: 450px; */
+    max-width: 500px;
     /* max-width: 550px; */
     min-height: 200px;
     /* padding: 0 calc(1.5rem/2); */
@@ -27,13 +27,7 @@
 
   .nav-class h3 {
     position: absolute;
-    /* left: 50px; */
-    left: 5px;
-  }
-
-  .menu-icon {
-    position: absolute;
-    right: 10px;
+    left: 50px;
   }
 
   .card-collection .card:nth-child(1) {
@@ -75,23 +69,13 @@
     display: none;
   }
 
-  .price-card {
-    /* width: 337px; */
-    width: 270px;
-  }
-  .price-card h4 {
-    text-align: left;
-  }
-
   /* .third-section-custom-h2 {
-        text-align: center;
-        font-size: 2.2rem;
-      } */
+          text-align: center;
+          font-size: 2.2rem;
+        } */
 
   .image-gallery {
-    display: grid;
     grid-template-columns: 1fr;
-    place-items: center;
     grid-template-rows: 1fr;
     grid-template-areas:
       "one"
@@ -103,6 +87,20 @@
       "seven"
       "eight";
   }
+
+  /* .image-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:
+      "one two"
+      "one three"
+      "four four"
+      "four four"
+      "five five"
+      "five five"
+      "six six"
+      "seven eight";
+  } */
 
   .sixth-section-child-1 {
     width: 100%;
@@ -124,7 +122,7 @@
     flex-direction: column;
   }
   .testimonial {
-    padding: 4rem 0;
+    padding: 4rem;
   }
   .seventh-section-part-2 {
     padding: 4rem 0;
@@ -154,8 +152,8 @@
   }
 
   /* .eighth-section-second{
-        margin-bottom: 3rem;
-      } */
+          margin-bottom: 3rem;
+        } */
 
   .eighth-flex {
     width: 100%;
@@ -171,21 +169,12 @@
   }
 
   .inner-image {
-    max-width: 68%;
+    max-width: 52%;
     /* width: 38%; */
     height: 50px;
     position: absolute;
-    /* top: 40px; */
-    /* left: 140px; */
-    left: 60px;
-    /* aspect-ratio: 3/2; */
-  }
-
-  .inner-image img {
-    max-width: 83%;
-    position: absolute;
-    bottom: -304px;
-    right: 30px;
+    top: 120px;
+    left: 121px;
   }
 
   .ninth-data {
@@ -196,6 +185,7 @@
 
   .ninth-data button {
     font-size: 13px;
+    /* margin-left: -50px; */
   }
 
   .ninth-data {
@@ -225,6 +215,7 @@
   .tenth-section-part-1 iframe {
     width: 100%;
     height: 100%;
+    min-height: 400px;
   }
 
   .footer-section {
@@ -233,8 +224,8 @@
   }
 
   /* .footer-flex{
-      
-    } */
+        
+      } */
 
   .second-section-child-1-1 {
     display: flex;
@@ -276,7 +267,6 @@
   .eleventh-section-heading h2 {
     font-size: 2.2rem;
   }
-
   .green-card-hover {
     background: linear-gradient(to right, #5c9320 2%, #63c600 82%);
     position: absolute;
@@ -301,61 +291,23 @@
     opacity: 1;
   }
 
-  .header-text-middle h1 {
-    font-size: 23px;
-  }
-
-  .header-text-middle p {
-    font-size: 11px;
-    line-height: 20px;
-  }
-
   .form-main-group {
     margin-left: 0px;
   }
 
   .form-group {
-    max-width: 100%;
-  }
-
-  /* .ninth-data button {
-      margin-left: -150px;
-    } */
-
-  .counter-row .counter-item {
-    width: 34%;
-    text-align: left;
-    float: left;
-    /* display: inline-block; */
-    padding-bottom: 40px;
-  }
-
-  .ninth-image-div img {
-    max-width: 340px;
-  }
-
-  .right-img {
-    text-align: center;
-  }
-
-  .tenth-section-part-1 iframe {
-    min-height: 400px;
-  }
-
-  .form-first-group,
-  .form-second-group,
-  .form-third-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    min-width: 700px;
     width: 100%;
-    justify-content: center;
-    margin-left: -190px;
+    max-width: 500px;
   }
 
-  .eleventh-btn button {
-    font-size: 13px;
-    margin-left: -200px;
+  .ninth-data button {
+    justify-content: flex-start;
+  }
+  .header-text-middle h1 {
+    font-size: 2rem;
+  }
+
+  .header-text-middle p {
+    font-size: 1rem;
   }
 }

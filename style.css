@@ -85,7 +85,7 @@ body {
   z-index: 100000;
 }
 
-#navbar {
+/* #navbar {
   display: flex;
   background: linear-gradient(to right, #5c9320 2%, #63c600 82%);
   color: white;
@@ -94,11 +94,9 @@ body {
   justify-content: space-around;
   align-items: center;
   z-index: 1000000;
-  /*Define a height for NavBar*/
   height: 65px;
   transition: 0.5s;
-  /*and a transition time for a smooth appearence*/
-}
+} */
 
 .nav-class h3 {
   font-size: 25px;
