@@ -44,6 +44,15 @@
     max-width: 270px;
   }
 
+  .vishide {
+    visibility: hidden;
+    /* display: none; */
+  }
+
+  #top-nav{
+    top:0;
+  }
+
   .eighth-section-app-feature {
     margin-bottom: 1rem;
   }

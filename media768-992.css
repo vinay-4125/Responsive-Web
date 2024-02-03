@@ -60,6 +60,15 @@
     left: 50px;
   }
 
+  .vishide {
+    visibility: hidden;
+    /* display: none; */
+  }
+
+  #top-nav{
+    top:0;
+  }
+
   .card-collection .card:nth-child(2) {
     margin: 0 auto;
   }

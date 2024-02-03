@@ -12,6 +12,9 @@
     /* padding: 0 calc(1.5rem/2); */
   }
 
+  .bg-image {
+    padding: 100px 0;
+  }
   .section-class {
     position: relative;
     padding: 4.5rem 0;
@@ -21,6 +24,12 @@
   .nav-first-line {
     display: none;
   }
+
+  .nav-class {
+    position: absolute;
+    top: 50px;
+  }
+
   .nav-class ul {
     display: none;
   }
@@ -29,6 +38,15 @@
     position: absolute;
     /* left: 50px; */
     left: 5px;
+  }
+
+  .vishide {
+    visibility: hidden;
+    /* display: none; */
+  }
+
+  #top-nav {
+    top: 0;
   }
 
   .menu-icon {

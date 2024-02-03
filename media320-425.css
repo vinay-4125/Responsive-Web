@@ -32,6 +32,15 @@
     left: 5px;
   }
 
+  .vishide {
+    visibility: hidden;
+    /* display: none; */
+  }
+
+  #top-nav{
+    top:0;
+  }
+
   .menu-icon {
     position: absolute;
     right: 10px;

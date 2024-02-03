@@ -19,8 +19,48 @@
     <link rel="stylesheet" href="media768-992.css" />
     <link rel="stylesheet" href="media992-1270.css" />
     <!-- <link rel="stylesheet" href="media-768.css" /> -->
+    <!-- http://templates.acrothemes.com/wexim/index-consulting.html -->
   </head>
   <body>
+    <nav class="nav-class" id="top-nav">
+      <h3>Wexim<span style="color: blue">.</span></h3>
+      <ul>
+        <li class="active"><a href="#home">Home</a></li>
+        <li class="about"><a href="#about">About</a></li>
+        <li class="team"><a href="#team">Team</a></li>
+        <li class="work"><a href="#work">Work</a></li>
+        <li class="pricing"><a href="#pricing">Pricing</a></li>
+        <li class="blog"><a href="#blog">Blog</a></li>
+        <li class="contact"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <div class="side-nav">
+      <div class="inner-nav-class">
+        <div class="closediv">&times;</div>
+        <ul>
+          <li class="active"><a href="#home">Home</a></li>
+          <li class="about"><a href="#about">About</a></li>
+          <li class="team"><a href="#team">Team</a></li>
+          <li class="work"><a href="#work">Work</a></li>
+          <li class="pricing"><a href="#pricing">Pricing</a></li>
+          <li class="blog"><a href="#blog">Blog</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
+        </ul>
+        <div>
+          <div class="icon-flex-sidebar-class">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <p>© 2021 Wexim. Made With Love by<br>Themesindustry</p>
+        </div>
+      </div>
+    </div>
+
     <section class="main-section" id="home">
       <div class="bg-image">
         <div class="nav-first-line">
@@ -35,7 +75,7 @@
             </div>
           </div>
         </div>
-        <nav class="nav-class">
+        <nav class="nav-class vishide">
           <h3>Wexim<span style="color: blue">.</span></h3>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -61,21 +101,6 @@
         </div>
       </div>
     </section>
-    <!-- <nav class="nav-class">
-      <h3>Wexim<span style="color: blue">.</span></h3>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="menu-icon">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </nav> -->
 
     <section class="second-section section-class container" id="about">
       <div class="second-section-parent">
@@ -512,7 +537,10 @@
     </section>
 
     <!-- sixth section -->
-    <section class="sixth-section second-section section-class container">
+    <section
+      class="sixth-section second-section section-class container"
+      id="pricing"
+    >
       <div class="second-section-parent">
         <div class="sixth-section-child-1">
           <div class="sixth-section-child-1-1">
@@ -534,22 +562,58 @@
     </section>
 
     <!-- seventh-section -->
-    <section class="seventh-section">
+    <section class="seventh-section" id="pricing">
       <div class="seventh-section-part-1 flex-class">
-        <div class="testimonial">
-          <i class="fa-solid fa-quote-right"></i>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae
-            egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum
-            commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In
-            at tempor purus. Nunc aliquet lacus vel posuere volutpat. Fusce
-            ultrices sollicitudin nisl nec elementum.
-          </p>
-          <div class="testimonial-image">
-            <img src="./images/testimonial-img3.jpg" alt="" />
+        <div class="outer-outer-slider">
+          <div class="outer-slider-container">
+            <div class="inner-slider">
+              <div class="testimonial">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non
+                  rutrum commodo, sem magna laoreet tellus, eu euismod dolor
+                  enim et mi. In at tempor purus. Nunc aliquet lacus vel posuere
+                  volutpat. Fusce ultrices sollicitudin nisl nec elementum.
+                </p>
+                <div class="testimonial-image">
+                  <img src="./images/testimonial-img1.jpg" alt="" />
+                </div>
+                <h5>Sara Williamson</h5>
+                <span>Product Manager, The Company Inc.</span>
+              </div>
+              <div class="testimonial">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non
+                  rutrum commodo, sem magna laoreet tellus, eu euismod dolor
+                  enim et mi. In at tempor purus. Nunc aliquet lacus vel posuere
+                  volutpat. Fusce ultrices sollicitudin nisl nec elementum.
+                </p>
+                <div class="testimonial-image">
+                  <img src="./images/testimonial-img2.jpg" alt="" />
+                </div>
+                <h5>John Armstrong</h5>
+                <span>Company CEO, The Company Inc.</span>
+              </div>
+              <div class="testimonial">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non
+                  rutrum commodo, sem magna laoreet tellus, eu euismod dolor
+                  enim et mi. In at tempor purus. Nunc aliquet lacus vel posuere
+                  volutpat. Fusce ultrices sollicitudin nisl nec elementum.
+                </p>
+                <div class="testimonial-image">
+                  <img src="./images/testimonial-img3.jpg" alt="" />
+                </div>
+                <h5>Stephine Jhon</h5>
+                <span>General Manager, The Company Inc.</span>
+              </div>
+            </div>
           </div>
-          <h5>Stephine Jhon</h5>
-          <span>General Manager, The Company Inc.</span>
         </div>
       </div>
       <div class="seventh-section-part-2 flex-class">
@@ -577,7 +641,7 @@
       </div>
     </section>
 
-    <section class="eighth-section">
+    <section class="eighth-section" id="pricing">
       <div class="section-class container">
         <div class="third-info">
           <h6>Most reliable application</h6>
@@ -736,7 +800,7 @@
       </div>
     </section>
 
-    <section class="eleventh-section">
+    <section class="eleventh-section" id="contact">
       <div class="section-class container">
         <div class="eleventh-section-heading">
           <h6>Lorem ipsum dolor sit amet</h6>
@@ -800,7 +864,7 @@
       </div>
     </section>
 
-    <footer class="footer-section">
+    <footer class="footer-section" id="contact">
       <div class="container footer-flex">
         <div class="footer-icon">
           <div class="footer-icon-box">
@@ -829,8 +893,9 @@
       </div>
     </footer>
 
-    <a href="#home" class="go-to-top">
+    <a href="#" class="go-to-top" id="go-top">
       <i class="fa-solid fa-angle-up"></i>
     </a>
+    <script src="index.js"></script>
   </body>
 </html>
